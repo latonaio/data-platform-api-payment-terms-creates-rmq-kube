@@ -1,0 +1,27 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "PAYMENT_TERMS",
+	"PaymentTerms": {
+		"PaymentTerms": "0001",
+		"DueDate": 31,
+		"BaseDateCalcFixedDate": 31,
+		"BaseDateCalcAddMonth": 0,
+		"PaymentDateCalcFixedDate": 31,
+		"PaymentDateAddMonth": 1,
+		"PaymentTermsText": {
+			"PaymentTerms": "0001",
+			"Language": "JA",
+			"PaymentTermsName": "月末締め、翌月末払い"
+		}
+	},
+	"api_schema": "DPFMPaymentTermsCreates",
+	"accepter": ["PaymentTerms"],
+	"payment_terms_id": null,
+	"deleted": false
+}
