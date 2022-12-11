@@ -28,13 +28,13 @@ type SDC struct {
 }
 
 type PaymentTerms struct {
-	PaymentTerms             *string          `json:"PaymentTerms"`
-	DueDate                  *int             `json:"DueDate"`
-	BaseDateCalcFixedDate    *int             `json:"BaseDateCalcFixedDate"`
-	BaseDateCalcAddMonth     *int             `json:"BaseDateCalcAddMonth"`
-	PaymentDateCalcFixedDate *int             `json:"PaymentDateCalcFixedDate"`
-	PaymentDateAddMonth      *int             `json:"PaymentDateAddMonth"`
-	PaymentTermsText         PaymentTermsText `json:"PaymentTermsText"`
+	PaymentTerms                *string          `json:"PaymentTerms"`
+	BaseDate                    *int             `json:"BaseDate"`
+	BaseDateCalcAddMonth        *int             `json:"BaseDateCalcAddMonth"`
+	BaseDateCalcFixedDate       *int             `json:"BaseDateCalcFixedDate"`
+	PaymentDueDateCalcAddMonth  *int             `json:"PaymentDueDateCalcAddMonth"`
+	PaymentDueDateCalcFixedDate *int             `json:"PaymentDueDateCalcFixedDate"`
+	PaymentTermsText            PaymentTermsText `json:"PaymentTermsText"`
 }
 
 type PaymentTermsText struct {

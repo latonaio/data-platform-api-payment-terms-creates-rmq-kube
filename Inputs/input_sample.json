@@ -9,11 +9,11 @@
 	"service_label": "PAYMENT_TERMS",
 	"PaymentTerms": {
 		"PaymentTerms": "0001",
-		"DueDate": 31,
-		"BaseDateCalcFixedDate": 31,
-		"BaseDateCalcAddMonth": 0,
-		"PaymentDateCalcFixedDate": 31,
-		"PaymentDateAddMonth": 1,
+		"BaseDate": 31,
+		"BaseDateCalcAddMonth": 31,
+		"BaseDateCalcFixedDate": 0,
+		"PaymentDueDateCalcAddMonth": 31,
+		"PaymentDueDateCalcFixedDate": 1,
 		"PaymentTermsText": {
 			"PaymentTerms": "0001",
 			"Language": "JA",

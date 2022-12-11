@@ -7,12 +7,12 @@ import (
 func (sdc *SDC) ConvertToPaymentTerms() *requests.PaymentTerms {
 	data := sdc.PaymentTerms
 	return &requests.PaymentTerms{
-		PaymentTerms:             data.PaymentTerms,
-		DueDate:                  data.DueDate,
-		BaseDateCalcFixedDate:    data.BaseDateCalcFixedDate,
-		BaseDateCalcAddMonth:     data.BaseDateCalcAddMonth,
-		PaymentDateCalcFixedDate: data.PaymentDateCalcFixedDate,
-		PaymentDateAddMonth:      data.PaymentDateAddMonth,
+		PaymentTerms:                data.PaymentTerms,
+		BaseDate:                    data.BaseDate,
+		BaseDateCalcAddMonth:        data.BaseDateCalcAddMonth,
+		BaseDateCalcFixedDate:       data.BaseDateCalcFixedDate,
+		PaymentDueDateCalcAddMonth:  data.PaymentDueDateCalcAddMonth,
+		PaymentDueDateCalcFixedDate: data.PaymentDueDateCalcFixedDate,
 	}
 }
 
